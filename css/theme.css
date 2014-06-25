@@ -1,0 +1,27 @@
+@font-face { font-family: 'dos437-webfont'; src: url('http://www.nodecloud.org/fonts/dos437-webfont.eot'); src: url('http://www.nodecloud.org/fonts/dos437-webfont.woff') format('woff'), url('http://www.nodecloud.org/fonts/dos437-webfont.ttf') format('truetype'), url('http://www.nodecloud.org/fonts/dos437-webfont.svg#webfontpVS4iJcr') format('svg'); font-weight: bold; font-style: normal }
+
+body { background: #46483e; color: #d2d8ba; font-family: 'dos437-webfont'; font-size: 8px; font-smooth: never; -webkit-font-smoothing : none; letter-spacing: 1px; margin: 0; padding: 0; text-align: justify }
+
+a { color: #0a0; text-decoration: none; border-bottom: 1px dotted }
+p { margin-bottom: 16px }
+
+ul { padding: 0; margin-left: 216px }
+li { list-style: none }
+li:first-child { color: #fff }
+li:nth-child(2) { padding: 16px 0 }
+li:nth-child(3) span { color: #5f5 }
+li:nth-child(4) span { color: #0a0 }
+
+#container { width: 912px; margin : auto; }
+#header { text-align:center; font-size: 12px; padding:8px 0; margin-bottom: 16px; background: #33342d;}
+#echojs { height : 96px; padding : 16px; background: #33342d; color: #eee; margin-bottom: 16px }
+#echojs a { border: none }
+#echojs p {	margin-top: 0px }
+#footer { background: #222; color: #fff; padding: 16px 0; }
+#footer a { color: #d2d8ba }
+#copyright, #trademark { width: 912px; margin: 0 auto}
+#trademark { color: #555; padding-top: 16px }
+
+.site { height : 150px; padding : 16px; background: #33342d; color: #eee; margin-bottom: 16px }
+.site a, #echojs a { color: #aaa }
+.site img, #echojs img { background: #fff; border: 0; display: block; float: left; margin-right: 16px; }
